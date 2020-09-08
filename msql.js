@@ -71,10 +71,10 @@ app.post("/api",(req,res)=>{
             function sen(e){
                 return (x)=>{};
             }
-            const el=req.body.content.split("\n");
-            for(let e of el){
-                dbs.add(token, e).then(sen(false),sen(true));
-            }
+            //const el=req.body.content.split("\n");
+            //for(let e of el){
+                dbs.add(token, req.body.content).then(sen(false),sen(true));
+            //}
             res.json({"err": false, your: `${token}`})
         }else{
             res.status(500);
