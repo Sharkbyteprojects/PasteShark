@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Sharkbyteprojects/SharkMon/master/static/icons/ram.svg" width="200">
 
 # PasteShark
-[*ONE OF THE suggested-repos!*](https://sharkbyteprojects.github.io/suggested-repos/) | [UPLOADED TO NPM](https://www.npmjs.com/package/mysqlpastesh)
+[*ONE OF THE suggested-repos!*](https://sharkbyteprojects.github.io/suggested-repos/) | [<img src="https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png" height="100" alt="Uploaded"> NPM](https://www.npmjs.com/package/mysqlpastesh)
 
 ```diff
 + Paste big Text for online link
