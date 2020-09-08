@@ -10,6 +10,14 @@ You can use `Docker` or you need to install `Node.js` and `npm`
 
 if you don't use docker, you can run `npm install` in the main dir, then `npm start`
 
+## Changelog
+```diff
++ One Sql element per entry
+- One Sql element per line
+! Client Complete !
+@@ Use Angular as Client @@
+```
+
 ## DEMO:
 ***Warning***: THE DEMO VERSION IS NOT THE LATEST VERSION AND HAS BUGS!
 
