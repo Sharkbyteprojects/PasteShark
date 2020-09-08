@@ -3,9 +3,7 @@
 # PasteShark
 [*ONE OF THE suggested-repos!*](https://sharkbyteprojects.github.io/suggested-repos/) | [<img src="https://static.npmjs.com/7a7ffabbd910fc60161bc04f2cee4160.png" height="30" alt="Uploaded"> NPM](https://www.npmjs.com/package/mysqlpastesh)
 
-```diff
-+ Paste big Text for online link
-```
+Paste big Text for online link
 
 ## RUN
 You can use `Docker` or you need to install `Node.js` and `npm`
@@ -26,9 +24,7 @@ if you don't use docker, you can run `npm install` in the main dir, then `npm st
 ## DEMO:
 ***Warning***: THE DEMO VERSION IS NOT THE LATEST VERSION AND HAS BUGS!
 
-```diff
-! DON'T USE IT IN PRODUCTIVE CASE
-```
+DON'T USE IT IN PRODUCTIVE CASE
 
 ---
 
