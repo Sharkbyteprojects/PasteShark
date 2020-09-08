@@ -1,0 +1,23 @@
+<pre *ngIf="yourtext!=''">{{yourtext}}</pre>
+<div *ngIf="rlw!=''">
+    <a href="{{rlw}}" target="_blank">
+	    <button>
+            OPEN RAW
+        </button>
+    </a>
+</div>
+<div>
+    <label for="ids" class="noselect">
+        <ng-content></ng-content>
+    </label>
+    <input 
+    type="text" 
+    name="ids" 
+    placeholder="ID" 
+    (keydown.enter)="loads(idd.value)" 
+    #idd>
+    <button 
+    (click)="loads(idd.value)">
+        Load
+    </button>
+</div>

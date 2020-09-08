@@ -1,0 +1,11 @@
+<button style="width:100%!important;" (click)="tgl();">{{thd}} Writer</button>
+<div *ngIf="lists">
+    <textarea (keydown)="nullit(txtarea.value)" (keydown.shift.enter)="saves(txtarea.value);txtarea.value=''" #txtarea>{{con}}</textarea>
+    <button class="noselect" (click)="saves(txtarea.value);txtarea.value=''"><ng-content></ng-content></button>
+    <button class="ca noselect" (click)="cde();txtarea.value=''">Cancel</button>
+    <div class="iinf" *ngIf="warn!=''||okm!=''">
+        <strong *ngIf="warn!=''" class="noselect err">Error: {{warn}}</strong>
+        <strong *ngIf="okm!=''" class="noselect">Your Token: <div class="selectable">{{okm}}</div>Uri to Page:<div class="selectable">{{urisss}}#{{okm}}</div></strong>
+    </div>
+</div>
+<div class="placeholder noselect">xx</div>

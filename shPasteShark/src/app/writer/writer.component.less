@@ -1,0 +1,66 @@
+@transparent: #ffffff00;
+
+.cc{
+    border-color: @transparent;
+}
+@radius:8px;
+textarea{
+    width: 100%;
+    resize: vertical;
+    background-color: #3b3b3b;
+    color: #f3b354;
+    .cc();
+    height: 300px;
+    border-radius: @radius;
+}
+button:not(.ca){
+    background-color: #06ce48;
+    color: #202020;
+}
+button{
+    width: 50%;
+    .cc();
+    border-radius: @radius;
+    line-height: 2;
+}
+button.ca{
+    background-color: #ff3d02;
+    color:#d3d3d3;
+}
+div.placeholder{
+    text-align: center;
+    height: 20px;
+    background-color:#18f8c7;
+    color: @transparent;
+    width:100%;
+}
+@selects: text;
+.selectable{
+    -webkit-touch-callout: @selects; /* iOS Safari */
+      -webkit-user-select: @selects; /* Safari */
+       -khtml-user-select: @selects; /* Konqueror HTML */
+         -moz-user-select: @selects; /* Old versions of Firefox */
+          -ms-user-select: @selects; /* Internet Explorer/Edge */
+              user-select: @selects; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+.xes{
+    background-color: #3b3b3b;
+    width:100%;
+    text-align: center;
+}
+.see{
+    .xes();
+    line-height: 2;
+}
+div.iinf{
+    .xes();
+}
+strong.err{
+    color:#ff0000;
+    .see();
+}
+strong:not(.err){
+    color:#48ff00;
+    .see();
+}
