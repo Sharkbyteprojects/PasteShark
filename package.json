@@ -1,6 +1,6 @@
 {
   "name": "mysqlpastesh",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sqlpasteShark",
   "main": "msql.js",
   "scripts": {
