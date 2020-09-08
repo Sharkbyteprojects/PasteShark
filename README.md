@@ -15,4 +15,4 @@ DON'T USE IT IN PRODUCTIVE CASE
 
 ---
 
-[DEMO BUILD](https://pasteshark.glitch.me/) | [TEXT IN DEMO BUILD](https://pasteshark.glitch.me#ecc84ac050b4001cf143eb1fc99efe9c)
+[DEMO BUILD](https://pasteshark.glitch.me/) || [TEXT IN DEMO BUILD](https://pasteshark.glitch.me#ecc84ac050b4001cf143eb1fc99efe9c)
