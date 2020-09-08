@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/Sharkbyteprojects/SharkMon/master/static/icons/ram.svg" width="200">
 
 # PasteShark
-[*ONE OF THE suggested-repos!*](https://sharkbyteprojects.github.io/suggested-repos/)
+[*ONE OF THE suggested-repos!*](https://sharkbyteprojects.github.io/suggested-repos/) | [UPLOADED TO NPM](https://www.npmjs.com/package/mysqlpastesh)
 
 ```diff
 + Paste big Text for online link
@@ -18,6 +18,7 @@ if you don't use docker, you can run `npm install` in the main dir, then `npm st
 - One Sql element per line
 ! Client Complete !
 @@ Use Angular as Client @@
++ Uploaded to NPM.JS
 ```
 
 ## DEMO:
