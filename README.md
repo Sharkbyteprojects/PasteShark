@@ -19,6 +19,8 @@ if you don't use docker, you can run `npm install` in the main dir, then `npm st
 ! Client Complete !
 @@ Use Angular as Client @@
 + Uploaded to NPM.JS
++ Add Hash Link
+- Remove Routing
 ```
 
 ## DEMO:
